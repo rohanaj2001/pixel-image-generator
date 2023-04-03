@@ -1,0 +1,50 @@
+  .pixel-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .pixel-row {
+    display: flex;
+  }
+
+  .pixel {
+    width: 1rem;
+    height: 1rem;
+    margin: 1px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .export-button {
+    background-color: #2F2F2F;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    align-self: flex-end;
+  }
+
+  .reset-button {
+    background-color: #FF4136;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    align-self: flex-start;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
